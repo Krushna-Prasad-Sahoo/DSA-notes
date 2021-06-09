@@ -1,0 +1,53 @@
+⭕ Data Structure & Algorithms Notes by KP SAHOO, +91 97770 93587 ⭕ 
+⭕ Copyright 2021 . All rights reserved ⭕
+===========================================================  📝 Session - 01  =======================================================================
+---
+DSA  : mathematical & logical model to store the interrelated data in a organised way based upon use case.
+```````
+- Types (with respect to arrangement of elements) :
+	- Linear (eg. array, linked-list, queue, stack)
+	- NonLinear (eg. tree, graph, hash table)
+
+- Types (based upon utilities) :
+	- container (array, linked-list)
+	- priority (queue, stack, heap)
+	- Index (binary search tree, hash table)
+
+- Operaions on DS : 
+	- Traversing :
+		- Visting each & every element once
+	- Insertion :
+		- adding an element  
+		- one error : overflow ; when ds is full no insertion can happen
+	- Deletion :
+		- removing an element 
+		- error : underflow ; when ds is empty & you want to remove the element
+	- Searching :
+		- searching an element
+		- result is the address of desired element (2 types) :
+			- successful 
+			- unsuccessful
+		- in case of array we get : index of element(successful)  &  LowerBound - 1 (unsuccessful)
+		- in case of tree / linked-list we get : address of node(successful)  &  NULL(unsuccessful)
+	- Merging :
+		- combining 2 DS of same types to get one
+	- Sorting : 
+		- arranging the elements in ascending or descending order
+---
+Algorithm : step by step solution for solving any mathematical & logical problems
+
+- Analysis of Algoritm :
+	- space complexity (space reqd. by algo to run ; input space is not included)
+	- time complexity (time reqd. by algo to run)
+		- 2 types :
+			- wall clock time (not used b/c of dependency on h/w & ext. factors)
+			- number of operations 
+		- rate of growth :
+			- how the cost of algo grows with increasing input
+		- complexities (constant < logarithmic < linear < linear logarithmic < quadratic < cubic <  exponential)
+- Asymptotic Notation :
+	- Big Oh (tightest upper bound; max)
+	- Omega (tightest lower bound; min)
+	- Theta (avg. bound) (when complexity = theta(n),  it means BigOh(n) = omega(n) )
+
+===========================================================  📝 Session - 02  =======================================================================
