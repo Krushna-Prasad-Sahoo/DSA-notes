@@ -50,4 +50,78 @@ Algorithm : step by step solution for solving any mathematical & logical problem
 	- Omega (tightest lower bound; min)
 	- Theta (avg. bound) (when complexity = theta(n),  it means BigOh(n) = omega(n) )
 
+===========================================================  📝 Session - 02  =======================================================================
+---
+ARRAY : Collection of homogeneous elements
+
+- charateristics : 
+	- all elements are stored in consecutive memory locations; continuous manner
+	- all elements can be accessed using indexes
+- eg : 
+	- int A[5] = array A can hold only 5 integer type elements
+	- we can access  elements by index of the array such as A[0], A[1], A[2], A[3], A[4] 
+	- A[0] is the base address = starting index of array = Lower Bound
+	- Upper Bound = n-1 = 5-1 = 4 = A[4]
+	- size of array = UB - LB + 1
+	- in C, integer takes 2 bytes memory space
+	- Array_name[LB : UB]   , where LB < = UB
+		-  A[1:10] = 10-1+1 = 10 elements
+		-  B[5:29] = 29-5+1 = 25 elements
+		-  C[-2:8] = 8 - (-2) + 1 = 11 elements
+	- Array_name[LB.....UB] = arr[1...10] = 10 - 1 + 1 = 10 elements
+	- location(A[i]) = ??
+		- = BaseAddress + (  size of each element * no. of elements before A[i]  )
+		- = BaseAddress + (  size of each element * Relative Index  )     ,  no. of elements before A[i] = Relative Index
+		- Relative Index = i - LB
+		- - = BaseAddress + (  size of each element * { i - LB }  )
+
+- Interview Ques : 
+	- In COBOL & FORTRAN the LB = 1, but Why in C lang the LB = 0 ? 
+	- so if we take LB = 0, the subtraction operation will not be performed while searching any element. CPU time saved of one opration.
+
+- Traversing in Array : 
+	- eg : 
+		for  (k = LB to UB, k++)
+		{
+			process  A[k] ;
+		}
+	- here the complexity is theta(n).
+
+- Insertion in Array :
+	- check overflow condition (UB == array_max)  , array_max = upper bound for declared array, UB = for concerned elements only
+	- type-1 insertion (= always at last)
+		- eg :  
+		          if  (UB == array_max)
+			overflow & return;
+		          else 
+			UB++;
+			array[UB] = element;
+			n++;
+		- complexity = constant = theta(1) = BigOh(1)
+	- type-2 insertion (= based on the given index = insert value in the given i) , LB =< i <= UB + 1 , UB = for concerned elements only
+		- some / all of the elements have to be shifted towards right
+		- eg :  
+			Insert(A, LB, UB, n, i, element)
+			{
+				if  (UB == array_max)
+				    overflow & return;
+				else 
+					for (k=UB, k >= i, k--)
+						{
+							A[k+1] = A[k];
+						}
+					A[i] = element ;
+					UB++;
+					n++;
+			}
+		- complexity = max n times loop will run = BigOh(n)
+		
+
+
+
+
+
+
+
+
 
