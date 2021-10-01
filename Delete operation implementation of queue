@@ -1,0 +1,4 @@
+If (front — = - l)" (front >rear)
+Printf("Queue under flow"); Return;
+Else
+Printf("Element detected from queue", queue_arr[fo rnt]); Front = front +1;
