@@ -1,0 +1,71 @@
+Time Complexity
+Video no. 1-16 Abdul Bari's Algorithm Playlist
+
+Comment: After watching this 16 videos i can guarantee that you will gain mastery on Time Complexity for sure.
+Data Structure
+Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer and ACM ICPC World Finalist.
+
+Comment: This is one of the best materials to study on data structure topic. William implemented each on Java. But it doesn't really matter which language you use, i did this course in both in c++ and python. And try to code yourself after watching a data structure topic and do some leetcode question on that. And this is all you need to ace DS questions.
+Algorithms
+The Major Five topics are:-
+Ad hoc/ Implementation Problems
+Programming Paradigm(Greedy, backtracking, branch and bound, DP, Divide and Conquer, Brute force etc.)
+Graph Theory(directed, undirected, weighted, rooted(IN & OUT) and unrooted tree, DAG etc.)
+Math(Number theory, Computational Geometry, Combinatorics, Linear Algebra etc.)
+Others(String Processing, Bit Manipulation etc.)
+Implementation Problems
+Practice, Practice and Practice! Besides LC try to do some problems on other platforms for this. Again for this type, only practice can guarantee success. And that's it.
+Programming Paradigm
+Now, this is a huge deal for all of us, right?. So many topics to cover. But if you look closely the basic to ace this paradigm based question is Recursion. So before even try to understand DP, D&C etc. Understand Recursion and then come back. Recursion is the open secret tool to ace this type.
+
+Best materials for recursion
+Recursion Playlist by mycodeschool and video no. 18 to no. 29 from Abdul Bari's Algorithm Playlist to understand Masters Theorem for the proof of recursion.
+And another super important thing on recursion is to understand types of recursion like tail, head, nested, tree(the one you need everywhere) etc. You can study from sparknotes tutorial on recursion types or may follow a textbook. I will strongly recommend to study and master Chapter 4 | Divide and Conquer | Page No.65 from Introduction to Algorithm by CLRS. You have to spend sufficient time to understand recursion through studying and practicing, as recursion is will be the base of everything in this type.
+
+Some Notes on recursion: Almost everyone knows what recursion is, right? But that is not enough. You have to create some sort of mental model how recursion actually saves states by pushing function code to stack and reaches at the last/smallest problem and then solves it and then backtrack from there by poping function code from stack to top and etc. Hope those materials above will clarify everything.
+
+Now about studying each topic of Programming Paradigm:
+
+Divide and Conquer
+Implement merge sort, segment tree, binary search etc. And study Video no. 18, 33 to 38 from Abdul Bari Algorithm's Playlist
+
+Greedy
+This is tough one. Proofing greedy algorithm is quite difficult. Studying known problems like knapsack, job schedule, optimal merge pattern, Huffman coding etc are enough to ace greedy questions. Study Video no.39-no.45 from Abdul Bari Algorithm's Playlist
+
+Backtracking & Branch and Bound
+Study Video no.63 to no.71 from Abdul Bari Algorithm's Playlist. This topic is the key ingredient to solve Dynamic Programming questions.
+
+Dynamic Programming
+The big guy enters! After watching some top problem solver's code i get too much frustrated. They came up with all this sub problem based formula and solves it like a beginner question(Just kidding! they don't. It's because of their years of practice to recognize the pattern/formula for a dp problem). Say for example: A String based DP problem involves a 2D matrix where [i][j] generally refers to the solution for index i to j of the String and etc. Here is what you should do, try to understand backtracking very well as that will be the key in solving DP. After getting a backtracking solution you can memoize the previous solutions and reduce solutions to 2/3 Degree Polynomial Time. By the way, there is a good news for Pythonistas. After you just come up with a 2N backtracking solution just use functools.lru_cache(maxsize=None) decorator and you will have a dp solution(almost 90% time). More info here at:-
+
+What is memoization and how can I use it in Python?
+
+Anyway, you have to study known DP problems as much as you possibly can and try to recognize the patterns and types. Here is the post that will do that for you:-
+
+Leetcode Coin(giveaway) winning post on Dynamic Programming Patterns by aatalyk.
+
+Study and solve all questions from here. Just stick with it till the last question of this article. And when studying the article try to follow:-
+
+Tushar Roy's Dynamic Programing Playlist and Video no.46 to no.60 from Abdul Bari Algorithm's Playlist.
+
+I find Abdul bari's tutorial more effective and easy to follow. His style to teach students is quite exceptional. Suppose you are studying Longest Common Subsequence, first understand the question really good -> try to solve a small problem of the main problem -> try to solve a bit big problem with the help of solution and see if you can find any formula/pattern -> if you can't find any then read discussion/solution(only algorithm not code) and try to code it up after understanding -> If still doesn't work for you then watch the video of that topic from the playlist i have mentioned and try hard this time to understand and visualize the algorithm. -> You solved a DP Question! Yahoo!.
+
+Now one of the most important study material for DP. How many of us know that a dynamic programming is nothing but a topological sort of problem dependency directed acyclic graph which means if you can generate a test case for a DP problem that has a cycle then that DP solution will fail for that cyclic graph. To know all of this cool things and understand DP really good then study:-
+
+video no.19(MUST MUST!),20-22,26-27,39-45 from MIT OCW Introduction to Algorithm
+
+and this will be enough!
+Graph Theory
+Graph Theory Easy to Advanced Course - Full Tutorial from a Google Engineer and ACM ICPC World Finalist
+
+Comment: There are so much overlaps in between greedy, dp with graph theory. Say for example Dijkstra, Prim's and Kruskal's Minimum Spanning tree are just Greedy Algorithms or backtracking is just DFS with branch pruning with condition. So you will find it a lot easier after studying programming paradigm section. In fact graph problems are either so easy to recognize that everything is given so explicitly that any one can recognize it as a typical graph question or may be it's too hidden to even think it as a graph question. So my suggestion is to think out of the box for a problem, think if a problem can be solved by using graphs. Never forget that, Interviewers are just obsessed with binary tree, so try to solve as many questions as you can related to tree, specifically binary tree(and also n-ary tree). And also solve at least 20 questions with tag BFS and DFS in Leetcode which will definitely boost your tree and graph problem solving skill as graph traversal is the main toolkit to solve tree/graph problems in interview. That's all about graph.
+Math
+Math is fun, Math is everywhere and Math can win you any war from coding interview to WW2(Remember Alan Turing and enigma!). Math problems are more common to competitive programming environment. Sometimes interviewers will ask you for proof by induction or contradiction for a problem. And even if they don't and you can show the proof it will be a huge boost to your success. The best material to study:-
+
+MIT 6.042J Mathematics for Computer Science, Spring 2015 and also try to examine your understand through their quiz and exams from Mathematics for Computer Science MIT OCW main site.
+
+And CP(or may be CI) guys must read the Algebra Section from here:-
+
+English translation of e-maxx awesome algorithm text tutorial.
+
+This will be enough for the math topic at least for Coding Interviews. But may be not enough for CP guys.
