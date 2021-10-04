@@ -28,7 +28,7 @@ Algorithm is a set of instructions which leads to a step procedure for solving a
 2.	Output: Atleast one outcome will be produced. <br />
 3.	Definiteness: Each instruction should be clear and unambiguous. <br /> 
 4.	Finiteness: Every algorithm with terminate after a certain number of steps and it is called finiteness. <br />
-5.	Effectiveness: Every instruction must be sufficiently basic that it can in principle be carried out by a person using pencil and paper <br />
+5.	Effectiveness: Every instruction must be sufficiently basic that it can in principle be carried out by a person using pencil and paper. <br />
 
 ## Classification of Data Structure
 Linear DS: If elements or items are stored in sequence, it is called Linear Data Structure. <br />
