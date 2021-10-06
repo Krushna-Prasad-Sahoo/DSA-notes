@@ -33,3 +33,13 @@ Algorithm is a set of instructions which leads to a step procedure for solving a
 ## Classification of Data Structure
 Linear DS: If elements or items are stored in sequence, it is called Linear Data Structure. <br />
 Non-Linear DS: Not stored in sequence, elements, or items. Example: Tree, graphs, etc. <br />
+
+## What is a stack? 
+1.  Stack is a linear data structure that follows LIFO (Last In First Out) approach for accessing elements.
+2.  Push, pop, and top (or peek) are the basic operations of a stack.
+
+## What are the applications of stack?
+1.  Check for balanced parentheses in an expression
+2.  Evaluation of a postfix expression
+3.  Problem of Infix to postfix conversion
+4.  Reverse a string
