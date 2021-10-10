@@ -13,7 +13,7 @@ DSA  : mathematical & logical model to store the interrelated data in a organise
 	- priority (queue, stack, heap)
 	- Index (binary search tree, hash table)
 
-- Operaions on DS : 
+- Operations on DS : 
 	- Traversing :
 		- Visting each & every element once
 	- Insertion :
@@ -34,11 +34,11 @@ DSA  : mathematical & logical model to store the interrelated data in a organise
 	- Sorting : 
 		- arranging the elements in ascending or descending order
 ---
-Algorithm : step by step solution for solving any mathematical & logical problems
+Algorithm : step by step solution for solving any mathematical & logical problems.
 
-- Analysis of Algoritm :
-	- space complexity (space reqd. by algo to run ; input space is not included)
-	- time complexity (time reqd. by algo to run)
+- Analysis of Algorithm :
+	- space complexity (space reqd. by algo to run as a function of the length of the input; input space is not included)
+	- time complexity (time reqd. by algo to run as a function of the length of the input)
 		- 2 types :
 			- wall clock time (not used b/c of dependency on h/w & ext. factors)
 			- number of operations 
@@ -54,26 +54,27 @@ Algorithm : step by step solution for solving any mathematical & logical problem
 ---
 ARRAY : Collection of homogeneous elements
 
-- charateristics : 
+- Charateristics : 
 	- all elements are stored in consecutive memory locations; continuous manner
 	- all elements can be accessed using indexes
 - eg : 
 	- int A[5] = array A can hold only 5 integer type elements
 	- we can access  elements by index of the array such as A[0], A[1], A[2], A[3], A[4] 
 	- A[0] is the base address = starting index of array = Lower Bound
-	- Upper Bound = n-1 = 5-1 = 4 = A[4]
+	- Upper Bound = n-1 = 5-1 = 4 = A[4] (where , n=size of array)
 	- size of array = UB - LB + 1
-	- in C, integer takes 2 bytes memory space
-	- Array_name[LB : UB]   , where LB < = UB
+	- in C, integer takes 4 bytes & character takes 1 bytes of memory space
+        - Array_name[LB : UB]   , where LB < = UB
 		-  A[1:10] = 10-1+1 = 10 elements
 		-  B[5:29] = 29-5+1 = 25 elements
-		-  C[-2:8] = 8 - (-2) + 1 = 11 elements
+		-  C[-2:8] = 8 - (-2) + 1 = 11 elements0
 	- Array_name[LB.....UB] = arr[1...10] = 10 - 1 + 1 = 10 elements
 	- location(A[i]) = ??
 		- = BaseAddress + (  size of each element * no. of elements before A[i]  )
 		- = BaseAddress + (  size of each element * Relative Index  )     ,  no. of elements before A[i] = Relative Index
 		- Relative Index = i - LB
 		- - = BaseAddress + (  size of each element * { i - LB }  )
+        - The default value of elements is indeterminate means garbage
 
 - Interview Ques : 
 	- In COBOL & FORTRAN the LB = 1, but Why in C lang the LB = 0 ? 
@@ -115,7 +116,19 @@ ARRAY : Collection of homogeneous elements
 					n++;
 			}
 		- complexity = max n times loop will run = BigOh(n)
-		
+
+- Deletion in Array :
+           - Check the availability of element in the array.If element is present do following steps.
+           - Best case: If element is present at last
+                  - return (size of array-1)
+                  - complexity = It will take constant time. Hence the time complexity will be O(1)  
+           - Worst case : If element is present LB<=i<=UB-1
+                  - for(int i=0 ; i<n ; i++)
+                        if(arr[i]==element_to_be_deleted)
+                        break;
+                    for(int j=i ; j<array_size-1 ; j++)
+                        arr[j]=arr[j+1];
+		  - complexity : max n-1 times loop will run = BigOh(n)
 		
 
 
