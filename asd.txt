@@ -54,7 +54,7 @@ Algorithm : step by step solution for solving any mathematical & logical problem
 ---
 ARRAY : Collection of homogeneous elements
 
-- Charateristics : 
+- Characteristics : 
 	- all elements are stored in consecutive memory locations; continuous manner
 	- all elements can be accessed using indexes
 - eg : 
@@ -67,7 +67,7 @@ ARRAY : Collection of homogeneous elements
         - Array_name[LB : UB]   , where LB < = UB
 		-  A[1:10] = 10-1+1 = 10 elements
 		-  B[5:29] = 29-5+1 = 25 elements
-		-  C[-2:8] = 8 - (-2) + 1 = 11 elements0
+		-  C[-2:8] = 8 - (-2) + 1 = 11 elements
 	- Array_name[LB.....UB] = arr[1...10] = 10 - 1 + 1 = 10 elements
 	- location(A[i]) = ??
 		- = BaseAddress + (  size of each element * no. of elements before A[i]  )
