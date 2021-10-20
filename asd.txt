@@ -4,6 +4,8 @@
 ---
 DSA  : mathematical & logical model to store the interrelated data in a organised way based upon use case.
 
+
+
 - Types (with respect to arrangement of elements) :
 	- Linear (eg. array, linked-list, queue, stack)
 	- NonLinear (eg. tree, graph, hash table)
