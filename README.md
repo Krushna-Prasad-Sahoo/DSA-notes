@@ -1,5 +1,3 @@
-# DSA-notes
-
 ## What is DSA?
 Data Structure Algorithm is to simply place and store data in an organized manner. <br />
 For example: Array <br />
