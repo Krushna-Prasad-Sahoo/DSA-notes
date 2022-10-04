@@ -1,0 +1,5 @@
+If (rear = = Max -1) Printf("queue overflow"); Else
+If (front — 
+Front = O; Rear
+—rear + l;
+Queue_arr[rear]= added-item;
