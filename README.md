@@ -121,6 +121,13 @@ Algorithm is a set of instructions which leads to a step procedure for solving a
    * Sorting : arramging the elements either ascending or descending order
    * Merging : combine two different program element into single sorted file
     
-  
-      
+## How you can learn Data Structure and Algorithms ?
+
+### Learn DSA from Books
+
+- Learning from books is always a good practice. You will get the big picture of programming concepts in the book which you may not find elsewhere.
+1. Introduction to Algorithms, Thomas H. Cormen - it is one of the best books in algorithms and covers a broad range of algorithms in-depth
+2. Algorithms, Robert Sedgewick - it is the leading textbook on algorithms and is widely used in colleges and universities
+3. The Art of Computer Programming, Donald E. Knuth - this book is considered best if you know the subject and are looking for deeper understanding
+
     
