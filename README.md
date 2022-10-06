@@ -132,5 +132,4 @@ Algorithm is a set of instructions which leads to a step procedure for solving a
 
 ### Learn DSA through visualization
 
-- Once you have some idea about data structure and algorithms, there is a great resource at Data Structure Visualizations that lets you learn through animation.
-- https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
+- Once you have some idea about data structure and algorithms, there is a great resource at [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) that lets you learn through animation.
