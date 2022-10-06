@@ -130,4 +130,7 @@ Algorithm is a set of instructions which leads to a step procedure for solving a
 2. Algorithms, Robert Sedgewick - it is the leading textbook on algorithms and is widely used in colleges and universities
 3. The Art of Computer Programming, Donald E. Knuth - this book is considered best if you know the subject and are looking for deeper understanding
 
-    
+### Learn DSA through visualization
+
+- Once you have some idea about data structure and algorithms, there is a great resource at Data Structure Visualizations that lets you learn through animation.
+- https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
